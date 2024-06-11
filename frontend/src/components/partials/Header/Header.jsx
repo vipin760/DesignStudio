@@ -47,9 +47,9 @@ const Header = () => {
 
         <button onClick={handleClick} className="md:hidden">
           {show ? (
-            <i class="fa fa-times" aria-hidden="true"></i>
+            <i className="fa fa-times" aria-hidden="true"></i>
           ) : (
-            <i class="fa fa-bars" aria-hidden="true"></i>
+            <i className="fa fa-bars" aria-hidden="true"></i>
           )}
         </button>
       </div>
