@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Header from './components/partials/Header/Header'
+import Footer from './components/partials/Footer/Footer'
 
 const About = lazy(()=>import("./components/pages/About/About"))
 const Service = lazy(()=> import("./components/pages/Service/Service"))

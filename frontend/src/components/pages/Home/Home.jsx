@@ -5,6 +5,7 @@ import { GoogleGeminiEffect } from '../../ui/Google_gemni';
 import OverView from '../../partials/OverView/OverView';
 import HomeAbout from '../../partials/Home-about/HomeAbout';
 import WhyChoose from '../../partials/Why-Choose/WhyChoose';
+import MovingCard from '../../partials/MovingCard/MovingCard';
 const Home = () => {
   const ref = React.useRef(null);
   const { scrollYProgress } = useScroll({
@@ -35,6 +36,9 @@ const Home = () => {
           />
           <OverView/>
           <HomeAbout/>
+          <div className="mt-52">
+          <MovingCard />
+          </div>
         </div>
     </div>
         <div className='min-h-screen'>
